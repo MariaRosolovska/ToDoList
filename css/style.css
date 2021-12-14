@@ -1,0 +1,103 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	background-color: #ffa0f7;
+}
+.main-container {
+	background-color: #fff;
+	margin-top: 100px;
+	margin-left: 100px; 
+	border-radius: 20px;
+	box-shadow: 1px -1px 8px 1px gray;
+	height: 700px;
+	width: 600px;
+}
+  
+.container-2 {
+	margin-top: 30px;
+}
+  
+.title {
+	font-family: "Estonia", cursive;
+	font-size: 50px;
+	color: #f31fe1;
+	letter-spacing: 0.3px;
+}
+
+
+
+
+.btn {
+	padding: 10px;
+	margin: 7px;
+	display: inline-block;
+	border-radius: 6px;
+	background-color: #f31fe1;
+	color: #fff;
+	letter-spacing: 1px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.btn:hover {
+	background-color: #fff;
+	color: #f31fe1;
+	border: 1px solid #f31fe1;
+}
+  
+.input-add-task {
+	min-width: 400px;
+	height: 50px;
+	border-radius: 25px;
+	transition: all 0.5s;
+}
+.input-add-task:hover {
+	box-shadow: 1px -1px 8px 1px gray;
+}
+  
+li {
+	list-style-type: none;
+}
+  
+.hide {
+	display: none;
+}
+  
+
+
+
+@media (max-width: 600px) {
+	body {
+	  background-color: #f763de;
+	}
+  
+	.main-container {
+	  background-color: bisque;
+	  width: 400px;
+	}
+  
+	.input-add-task {
+	  min-width: 250px;
+	  height: 40px;
+	}
+}
+
+@media (max-width:900px) {
+	.main-container{
+		margin-left: 30px;
+	}
+}
+
+@media (max-width:400px) {
+	.main-container{
+		margin-left: 5px;
+		width: 350px;
+	}
+	.title{
+		font-size: 25px;
+	}
+}
