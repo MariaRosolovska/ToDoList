@@ -4,7 +4,7 @@ body{
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
-	background-color: #ffa0f7;
+	background-color: #ac1ff3;
 }
 .main-container {
 	background-color: #fff;
@@ -12,7 +12,7 @@ body{
 	margin-left: 100px; 
 	border-radius: 20px;
 	box-shadow: 1px -1px 8px 1px gray;
-	height: 700px;
+	min-height: 700px;
 	width: 600px;
 }
   
@@ -23,7 +23,7 @@ body{
 .title {
 	font-family: "Estonia", cursive;
 	font-size: 50px;
-	color: #f31fe1;
+	color: silver;
 	letter-spacing: 0.3px;
 }
 
@@ -35,7 +35,7 @@ body{
 	margin: 7px;
 	display: inline-block;
 	border-radius: 6px;
-	background-color: #f31fe1;
+	background-color: #ac1ff3;
 	color: #fff;
 	letter-spacing: 1px;
 	outline: none;
@@ -45,15 +45,17 @@ body{
 }
 .btn:hover {
 	background-color: #fff;
-	color: #f31fe1;
-	border: 1px solid #f31fe1;
+	color: #ac1ff3;
+	border: 1px solid #ac1ff3;
 }
   
 .input-add-task {
 	min-width: 400px;
 	height: 50px;
 	border-radius: 25px;
+	padding: 5px 20px;
 	transition: all 0.5s;
+	outline: none;
 }
 .input-add-task:hover {
 	box-shadow: 1px -1px 8px 1px gray;
@@ -71,12 +73,8 @@ li {
 
 
 @media (max-width: 600px) {
-	body {
-	  background-color: #f763de;
-	}
-  
+	
 	.main-container {
-	  background-color: bisque;
 	  width: 400px;
 	}
   
